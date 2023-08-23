@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Freehand&family=Noto+Sans+Khmer:wght@500&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.container-box{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    
+
+    /* background-color: blueviolet; */
+}
+.container-box .box-pop{
+    width: 100%;
+    /* height: 40px; */
+    margin-bottom: 20px;
+    /* background-color: aquamarine; */
+}
+.container-box .box-pop.row{
+    display: flex;
+    float: left;
+}
+.container-box .box-pop .row .bander{
+    float: right;
+    /* background-color: beige; */
+    width: 40%;
+
+}
+.container-box .box-pop .row .bander h1{
+    color: #fff;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.container-box .box-pop .row .box-header{
+    float: right;
+    width: 60%;
+    /* background-color: brown; */
+
+}
+.container-box .box-pop .row .box-header ul{
+    display: flex;
+    margin: auto;
+
+}
+.container-box .box-pop .row .box-header ul li{
+    list-style: none;
+    margin: 15px;
+}
+.container-box .box-pop .row .box-header ul li a{
+    color: black;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+
+    text-decoration: none;
+}
+#user{
+    /* margin-right: 500px; */
+    margin-bottom: 40px;
+    margin-left: 100px;
+    color: black;
+
+}
+#menu{
+    color: #fff;
+}
+/* ========================[contan]===================== */
+
+.containers{
+    height: 60vh;
+    width: 100%;
+    /* background-color: chartreuse;. */
+    position: relative;
+   
+
+}
+.containers h3{
+    color: #fff;
+   text-align: center;
+   font-size: 25px;
+}
+.containers .box-in{
+    width: 98%;
+    display: flex;
+    margin-right: 300px;
+    margin-left: 200px;
+    position: absolute;
+    top: 100px;
+    height: 200px;
+}
+.containers .box-in h1{
+   
+    margin-left: 400px;
+    color: #fff;
+}
+.containers .box-in h1 .h2{
+    margin-left: 100px;
+    margin-bottom: 600px;
+    color: #fff;
+    font-size: 30px;
+    top: 500px;
+}
+
+/* ===============================[box-menu]========================= */
+.box-menu{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.box-menu .box1{
+    width: 50%;
+    
+}
+.box-menu .box1 h1{
+    color: #000;
+}
+.box-menu .box2 {
+    width: 50%;
+}
+.box-menu .box2 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(15, 232, 160);
+    font-size: 20px;
+    color: #fff;
+    
+}
+/* ===================================[card]============================ */
+.box{
+    width: 100%;
+    /* height: 100%; */
+}
+.big-box{
+    width: 98%;
+    /* height: 560px; */
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    margin: 0;
+    float: left;
+    padding: 0;
+    height: 100%;
+
+}
+.big-box .box-card{
+    width: 380px;
+    /* height: 600px; */
+    float: right;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.big-box .box-card img{
+    width: 100%;
+    height: 75%;
+}
+h4{
+    color: #000;
+}
+.text{
+    opacity: 0.8;
+    color: #000;
+}
+.priecs{
+    color: red;
+}
+
+
+.box-foder{
+    width: 100%;
+    height: 210%;
+    /* background-color: rebeccapurple; */
+
+}
+.box-foderto{
+    width: 100%;
+    height: 80%;
+    /* background-color: rgb(88, 81, 95); */
+    display:flex ;
+
+}
+.box-foderto .pictur{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.box-foderto .pictur .img img{
+    width: 100%;
+    height: 100%;
+}
+.box-foderto .text{
+    width: 50%;
+    height: 100%;
+    /* background-color:burlywood ; */
+}
+.box-foderto .text h3{
+    padding: 20px;
+}
+.box-foderto .text h1{
+    padding: 20px;
+}
+.box-foderto .text p{
+    padding: 20px;
+}
+.box-foderto .text button{
+    margin-left: 300px;
+    height: 50px;
+    border: none;
+    width: 140px;
+    background-color: rgba(0, 128, 0, 0.482);
+
+}
+.icon{
+    width: 100%;
+    height: 80%;
+    /* background-color: aquamarine; */
+}
+.icon .text{
+    width: 100%;
+    height: 20%;
+    /* background-color: bisque; */
+}
+.icon .text h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.img-3{
+    width: 100%;
+    height: 70%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+}
+.icon .img-3 .a{
+    width: 30%;
+    height: 100%;
+    /* background-color: #000; */
+    margin: 20px;
+    padding: 10px;
+}
+.icon .img-3 .a .bo{
+    width: 30%;
+    height: 30%;
+    /* background-color: #fff; */
+    margin:auto;
+    border-radius: 50%;
+}
+.icon .img-3 .c .bo{
+    width: 30%;
+    height: 30%;
+    /* background-color: #fff; */
+    margin:auto;
+    border-radius: 50%;
+}
+.icon .img-3 .c .bo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.icon .img-3 .b .bo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.icon .img-3 .a .bo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.icon .img-3 .b .bo{
+    width: 30%;
+    height: 30%;
+    /* background-color: #fff; */
+    margin:auto;
+    border-radius: 50%;
+}
+.icon .img-3 .b{
+    width: 30%;
+    height: 100%;
+    /* background-color: #000; */
+    margin: 20px;
+    padding: 10px;
+}
+.icon .img-3 .c{
+    width: 30%;
+    height: 100%;
+    /* background-color: #000; */
+    margin: 20px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container-box .box-pop .row .bander h1{
+        margin-left: 60px;
+    }
+    .container-box .box-pop .row .bander{
+       position: relative;
+    }
+    .box-header{
+        display: none;
+    }
+    #menu{
+        display: flex;
+        position: absolute;
+        top: 13px;
+    }
+    #users{
+        top: 13px;    
+        position: absolute;
+        left: 330px;
+        color: #fff;
+
+    }
+
+    .containers h3{
+        
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+    }
+    .containers .box-in{
+        width: 98%;
+        display: flex;
+        margin-right: 300px;
+        margin-left: 200px;
+        position: absolute;
+        top: 100px;
+        height: 200px;
+    }
+    .containers .box-in h1{
+       
+        margin-left: 20px;
+        color: #fff;
+    }
+    .containers .box-in h1 .h2{
+        margin-left: 100px;
+        margin-bottom: 600px;
+        color: #fff;
+        font-size: 20px;
+        top: 500px;
+    }
+
+    /* ==========================[menu]==================== */
+    
+
+
+
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #menu{
+        display: flex;
+        position: absolute;
+    }
+    #users{
+        display: none;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #menu{
+        display: none;
+    }
+    #users{
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #menu{
+        display: none;
+    }
+    #users{
+        display: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #menu{
+        display: none;
+    }
+    #users{
+        display: none;
+    }
+    /* #user{
+        top: 13px;    
+        position: absolute;
+        left: 230px;
+        color: #fff;
+
+    } */
+    .row{
+        display: none;
+        display: block;
+    }
+}
